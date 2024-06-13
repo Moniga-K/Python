@@ -1,4 +1,4 @@
-Converting Input Strings
+1.1 Converting Input Strings
 Write a program to convert strings to an integer and float and display its type.
 Sample Output:
 10,<class 'int'>
@@ -23,7 +23,7 @@ print("{:0.1f}".format(d),type(d),sep=",")
  
 
 
-Gross Salary
+1.2 Gross Salary
 Ramesh’s basic salary is input through the keyboard. His dearness allowance is 40% of his basic salary, and his house rent allowance is 20% of his basic salary. Write a program to calculate his gross salary.
 
 Sample Input:
@@ -44,7 +44,7 @@ print(int(s+da+ha))
 
  
 
-Square Root
+1.3 Square Root
 Write a simple python program to find the square root of a given floating point number. The output should be displayed with 3 decimal places.
 
 
@@ -63,7 +63,7 @@ print("{:.3f}".format(s))
 
  
 
-Gain percent
+1.5 Gain percent
 Alfred buys an old scooter for Rs. X and spends Rs. Y on its repairs. If he sells the scooter for Rs. Z (Z>X+Y). Write a program to help Alfred to find his gain percent. Get all the above-mentioned values through the keyboard and find the gain percent.
 
 Input Format:
@@ -93,7 +93,7 @@ print("{:.2f}".format(g), "is the gain percent.")
 
 
 
-Deposits
+1.6 Deposits
 In many jurisdictions, a small deposit is added to drink containers to encourage people to recycle them. In one particular jurisdiction, drink containers holding one liter or less have a $0.10 deposit and drink containers holding more than one liter have a $0.25 deposit. Write a program that reads the number of containers of each size(less and more)  from the user. Your program should continue by computing and displaying the refund that will be received for returning those containers. Format the output so that it includes a dollar sign and always displays exactly two decimal places.
 Sample Input
 10
@@ -120,7 +120,7 @@ print("Your total refund will be ${:.2f}.".format(e))
 
 
 
-Carpenter
+1.7 Carpenter
 Justin is a carpenter who works on an hourly basis. He works in a company where he is paid Rs 50 for an hour on weekdays and Rs 80 for an hour on weekends. He works 10 hrs more on weekdays than weekends. If the salary paid for him is given, write a program to find the number of hours he has worked on weekdays and weekends.
 Hint:
 If the final result(hrs) are in -ve convert that to +ve using abs() function
